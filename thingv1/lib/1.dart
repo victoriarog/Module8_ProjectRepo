@@ -6,10 +6,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome back, ScaredCrow134',
+      title: 'Random SuggestER for you',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Welcome back, ScaredCrow134'),
+          title: Text('Random SuggestER for you, ScaredCrow134'),
           backgroundColor: Color(0xFF3399FF),
           actions: [
             Padding(
@@ -39,16 +39,8 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.question_answer),
-              title: Text('Random Drawing Suggester'),
-            ),
-            ListTile(
-              leading: Icon(Icons.photo_album),
-              title: Text('Artworks'),
-            ),
-            ListTile(
               leading: Icon(Icons.star),
-              title: Text('Favorite Themes'),
+              title: Text('A fox with a saltshaker in a disco'),
             ),
           ],
         ),
